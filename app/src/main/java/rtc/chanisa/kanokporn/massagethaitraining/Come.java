@@ -17,6 +17,7 @@ public class Come extends AppCompatActivity{
 
     public void clickButton7(View view) {
         startActivity(new Intent(Come.this, MainHub.class));
+        finish();
     }
 
     public void clickButton3(View view) {
